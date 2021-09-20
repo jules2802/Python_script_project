@@ -1,0 +1,42 @@
+Manuel pour lancer le script Launcher.py:
+
+Préliminaire:
+    Vous devez installer les librairies:
+    - "pip install radon"
+    - "pip install pydriller"
+    - "pip install matplotlib"
+
+1ère étape:
+    Si vous souhaitez lancer le script sur le projet "Pandas":
+        - Mettre à jour les variables:
+            - project_name = "Pandas"
+            - path = "pandas"
+            - branch = "master"
+
+    Si vous souhaitez lancer le script sur le projet "Keras"
+        - Mettre à jour les variables:
+            - project_name = "Keras"
+            - path = "keras"
+            - branch = "master"
+
+    Si vous souhaitez lancer le script sur le projet "Core"
+        - Mettre à jour les variables:
+            - project_name = "Core"
+            - path = "core"
+            - branch = "dev"
+
+
+2ème étape:
+    Run le script:
+        - sur l'IDE: clique droit --> Run
+        - en ligne de commande:
+            - "cd" jusqu'au dossier contenant Launcher.py
+            - "python3 Launcher.py"
+
+3ème étape:
+    Les résultats du script (les graphiques crées) sont enregistrés dans le dossier Résultats puis ils sont classé par
+    projets.
+
+
+Avertissement:
+    Au vue du nombre important de commit à analyser, le script peut prendre jusqu'à 30 minutes pour se réaliser complétement.
